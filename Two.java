@@ -37,7 +37,6 @@ public class Two
     int divid=a/b;
     int rem=a%b;
 
-
     System.out.println("Addition of this values is "+add);
     System.out.println("Substraction of this values is "+subs);
     System.out.println("Multiply of this values is "+multi);
