@@ -25,10 +25,10 @@ public class Two
 
     Scanner obj=new Scanner(System.in);
 
-    System.out.print("enter value :- ");
+    System.out.print("enter first value :- ");
     int a=obj.nextInt();
     
-    System.out.print("enter value :- ");
+    System.out.print("enter second value :- ");
     int b=obj.nextInt();
 
     int add = a+b;
@@ -43,6 +43,9 @@ public class Two
     System.out.println("Multiply of this values is "+multi);
     System.out.println("Division of this values is "+divid);
     System.out.println("Moduler of this values is "+rem);
+
+
+    //concatination
 
 
     }
