@@ -1,5 +1,5 @@
 //30 apl 2025 
-
+//input from user
 
 import java.util.Scanner;
 
@@ -62,6 +62,7 @@ public class Two
 
     float a = 7/4.0f * (9/2.0f);
     System.out.println(a);
+
 
 
     }

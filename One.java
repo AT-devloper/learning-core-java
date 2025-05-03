@@ -1,3 +1,7 @@
+//basic 
+//Print works
+
+
 import java.util.Scanner;
 
 public class One

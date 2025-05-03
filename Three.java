@@ -1,5 +1,5 @@
 // 1 May 2025
-
+//oprators
 class Three
 {
     public static void main(String ar[])
