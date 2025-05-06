@@ -44,10 +44,9 @@
 
     }
  }
-//  statemant = print (non-return)
+//  statement = print (non-return)
 //  expration= return
-//  javais only use exprations
-
+//  java only use exprations
 //  (number%2==0)?"even":"odd";
  
 

@@ -14,7 +14,7 @@ public class Two
         // double d=1.2222222222;
         // boolean b=true;
         // short s=16;
-        // long l = 2222;
+        // long l = 2222l;
 
         // System.out.println("int:- " +a);
         // System.out.println("char:- " +c);
@@ -23,8 +23,6 @@ public class Two
         // System.out.println("boolean:- " +b);
         // System.out.println("Short:- " +s);
         // System.out.println("long:- " +l);
-
-
 
     // Scanner obj=new Scanner(System.in);
 
@@ -53,12 +51,6 @@ public class Two
     // ADD / Addition
     // OVERLOADING = concatination
     // EXAMPLE :- "NAME" + 2
-
-
-
-
-
-
 
     float a = 7/4.0f * (9/2.0f);
     System.out.println(a);
