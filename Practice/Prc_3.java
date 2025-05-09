@@ -1,5 +1,5 @@
-//   May 2025
-//   
+//  7 May 2025
+//  if-else practice
 
 
 import java.util.Scanner;
