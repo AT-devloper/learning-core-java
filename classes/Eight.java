@@ -1,4 +1,4 @@
-// 13 may 2025
+//  may 2025
 //  
 
 
@@ -7,7 +7,12 @@ class Eight
 {
     public static void main(String ar[]);
     {
-        
+        Scanner sc=new Scanner(System.in);
+
+
+
+
+
 
 
 
