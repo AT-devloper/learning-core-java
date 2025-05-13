@@ -1,7 +1,5 @@
 // 8 may 2025
-// 
-
-
+// if else test 
 
 import java.util.Scanner;
 class Test_1
@@ -10,17 +8,17 @@ class Test_1
     {
         Scanner obj=new Scanner(System.in);
     
-        System.out.print("Enter year :- "); //LEAP YEAR
-        int year=obj.nextInt();
+        System.out.print("(Q1) Enter year :- "); //LEAP YEAR
+        int lyear=obj.nextInt();
 
-        if((year%4==0 && year%100!=0)||(year%400==0))
+        if((lyear%4==0 && lyear%100!=0)||(lyear%400==0))
         {
-            System.out.println(year +" is Leap Year.");
+            System.out.println(lyear +" is Leap Year.");
         }
-        else{System.out.println(year +" is Not a leap year.");}
+        else{System.out.println(lyear +" is Not a leap year.");}
 
 
-        System.out.print("Enter Alphabet :- "); // VOWEL/CONSONANT
+        System.out.print("(Q2) Enter Alphabet :- "); // VOWEL/CONSONANT
         char word=obj.next().charAt(0);
         if((word=='a' ||word=='e'||word=='o'||word=='u'||word=='i')||
         (word=='A' ||word=='E'||word=='O'||word=='U'||word=='I'))
@@ -30,7 +28,7 @@ class Test_1
         else{System.out.println(word +" iS Consonant");}
 
 
-        System.out.print("Enter temprature :- "); //temprature
+        System.out.print("(Q3) Enter temprature :- "); //temprature
         int temp=obj.nextInt();
 
         if(temp>=0 && temp <10){
@@ -52,30 +50,54 @@ class Test_1
             System.out.println("Freezing Weather");
         }
 
-         System.out.print("Enter Grade :- "); // GREAD - (A B C D E FAIL)
+         System.out.print("(Q4) Enter Grade (E V G A F) :- "); // GREAD - (E V G A F)
         char gr = obj.next().charAt(0);
 
-        if(gr=='a')
+        if(gr=='e'|| gr=='E')
         {
             System.out.println("Exellence");
         }
-        else if(gr=='b'){
+        else if(gr=='v'|| gr=='V'){
             System.out.println("very good");
         }
-        else if(gr=='c'){
+        else if(gr=='g'|| gr=='G'){
             System.out.println("good");
         }
-        else if(gr=='d'){
-            System.out.println("fair");
+        else if(gr=='a'||gr=='A'){
+            System.out.println("avarage");
         }
-        else if(gr=='e'){
-            System.out.println("need work");
+        else if(gr=='f'||gr=='F'){
+            System.out.println("fail");
         }
         else{
             System.out.println("fail");
         }
 
 
+        System.out.print("(Q5) Enter Year :- ");             // Days in month
+        int year=obj.nextInt();
+
+        System.out.print ("Enter month (1-12) :- ");
+        int month=obj.nextInt();
+
+        if(month==2)
+        {   
+            if((year%4==0 && year%100!=0)||(year%400==0)){ 
+            System.out.println("Year- "+year +" Month- "+month +" Days- 29");
+            }
+            else{
+                System.out.println("Year- "+year +" Month- "+month +" Days- 28");
+            }
+        }
+        else if(month== 1|| month== 3|| month== 5|| month== 7|| month== 8|| month== 10 || month== 12)
+        {
+                System.out.println("Year- "+year +" Month- "+month +" Days- 31");
+        }
+        else{
+            System.out.println("Year- "+year +" Month- "+month +" Days- 30");
+        }
+
+        
         // System.out.print("Enter Your Customer ID :- "); // ELECTRICTY
         // int ID = obj.nextInt(); 
 
@@ -105,14 +127,6 @@ class Test_1
         // } 
         // } 
         // System.out.println(" Your Id " +ID  +" Name " +name +" Bill is:- " + bill );
-
-
-
-
-
-
-
-
 
 
 
