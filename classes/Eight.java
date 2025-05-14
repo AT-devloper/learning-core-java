@@ -11,7 +11,7 @@ class Eight
         System.out.print("Enter Website :- ");
         String web=sc.next();
 
-        if(web.equals("olacars.com"))
+        if(web.equalsIgnoreCase("olacars.com"))       // Using method (.equalsignoreCase())
         { 
             System.out.print("Enter Car :- ");
             String car = sc.next();
@@ -29,8 +29,7 @@ class Eight
                         
                 }
             else if(car.equals("suzuki"))
-                {int Rcar=2000;
-
+                {   int Rcar=2000;
                     System.out.print("Enter Traval in Km :- ");
                     int km = sc.nextInt();
                     int fuel =(km/20)*108;
@@ -42,7 +41,7 @@ class Eight
                         }
             }
             else if(car.equals("tata"))
-                {int Rcar=40000;
+                {   int Rcar=40000;
                     System.out.print("Enter Traval in Km :- ");
                     int km = sc.nextInt();
                     int fuel =(km/30)*108;
@@ -54,7 +53,7 @@ class Eight
                         }
             }
             else if(car.equals("toyota"))
-                {int Rcar=3000;
+                {   int Rcar=3000;
                     System.out.print("Enter Traval in Km :- ");
                     int km = sc.nextInt();
                     int fuel =(km/40)*108;
@@ -67,7 +66,6 @@ class Eight
                 }
             else System.out.println("!!");
         }
-
         else System.out.println("Its Other website !! try again ");
     }
 }
