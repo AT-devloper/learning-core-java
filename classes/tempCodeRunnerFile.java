@@ -1,5 +1,4 @@
-// 14 may 2025
-//  HW : // Find the total fare of driver and and get discount by 1000rs about 500km ?
+// Find the total fare of driver and and get discount by 1000rs about 500km ?
 
 
 import java.util.Scanner;
