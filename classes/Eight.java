@@ -1,6 +1,7 @@
 // 14 may 2025
-//  HW : // Find the total fare of driver and and get discount by 1000rs about 500km ?
+//  HW : // Find the total fare of driver and and get discount by 1000rs above 500km ?
 
+// heap memory / string pool diffrence ?
 
 import java.util.Scanner;
 class Eight
@@ -11,7 +12,7 @@ class Eight
         System.out.print("Enter Website :- ");
         String web=sc.next();
 
-        if(web.equalsIgnoreCase("olacars.com"))       // Using method (.equalsignoreCase())
+        if(web.equals("olacars.com"))       // Using method (.equals())
         { 
             System.out.print("Enter Car :- ");
             String car = sc.next();
@@ -26,7 +27,6 @@ class Eight
                             int profit=total-1000;
                             System.out.println("You got Discount by 1000rs Payable amount = " +profit +"rs");
                         }
-                        
                 }
             else if(car.equals("suzuki"))
                 {   int Rcar=2000;
@@ -68,4 +68,4 @@ class Eight
         }
         else System.out.println("Its Other website !! try again ");
     }
-}
+} 
