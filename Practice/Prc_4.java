@@ -145,19 +145,19 @@ class Prc_4
     //         System.out.println(hcf);
     //     }}
 
-    // int num1 = sc.nextInt();
+    int num1 = sc.nextInt();
 
-    // int mx=(num>num1)?num:num1;
-    //  int i=mx;
+    int mx=(num>num1)?num:num1;
+     int i=mx;
 
-    //  while (true)
-    //  {
-    //     if(num%i==0 && num1%i==0){
-    //         break;
-    //     }
-    //         i+=mx;
-    //  }
-    //   System.out.println(i);
+     while (true)
+     {
+        if(num%i==0 && num1%i==0){
+            break;
+        }
+            i+=mx;
+     }
+      System.out.println(i);
 
     
     

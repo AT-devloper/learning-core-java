@@ -2,16 +2,11 @@
 using namespace std;
 int main()
 {
-string name="alok";
-if(name=="alok") 
-{
-cout<<"true";
+int a=1;
+sp:
+if(a<=10){
+cout<<2*a;
+a++;
 
-}
-else
-{
-
-
-}
-
+goto sp;}
 }
