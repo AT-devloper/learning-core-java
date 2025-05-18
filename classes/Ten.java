@@ -35,7 +35,7 @@ class Ten
         Scanner sc=new Scanner(System.in);    
 
         // System.out.print("Enter 2 numbers :- ");     // HCF - Higher common factors
-        // int num = sc.nextInt();                      // this type of are avilable in 2 devident
+        // int num = sc.nextInt();                      // this type of are avilable in 2 divident
         // int num1 = sc.nextInt();
         // int min=(num<num1)?num:num1;
 
