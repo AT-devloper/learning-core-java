@@ -84,12 +84,11 @@ class Twelve
            
 
 
-                // H - W 
+                // Home Work
 
 
-
-    // int number=54748;            // ALL TYPE AMSTRONG NUMBERS
-    // int sum=0; 
+    // int number=54748;            // ALL TYPE AMSTRONG NUMBERS // there are only 3, ,5 digit number are Amstrong.  
+    // int sum=0;                   // Example -- 5 :- 54748 , 4 :- 1634 , 3 :- 153 , 370, 371 , 407 . 
     // int num=number;
     // int ams=num;
     // int count=0;
@@ -101,7 +100,7 @@ class Twelve
     //         number = number/10;
     //     }
 
-    //     System.out.println("Digit :- " +count);
+    //     System.out.println("Given Digit are " +count);
 
     // switch(count){
 
@@ -147,9 +146,8 @@ class Twelve
     
     // }
 
-
    
-        int num=1479;
+        int num=1479;               // Number to Letter  
         int rev=0;
         while(num>0)
         {
@@ -180,4 +178,4 @@ class Twelve
 }
 
 
-//  HW - digit to number name
+//  HW - digit to number name    = Completed
