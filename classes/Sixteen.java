@@ -46,11 +46,9 @@ class Sixteen
 //                     System.out.print(r);
 //                 }
 //                 else{System.out.print(" ");}
-
 //             }
 //             System.out.println();
 //         }
-
         
 //  System.out.println();                     
 //         int n=0;
@@ -63,7 +61,6 @@ class Sixteen
 //                     System.out.print(++n);
 //                 }
 //                 else{System.out.print(" ");}
-
 //             }
 //             System.out.println();
 //         }
@@ -78,11 +75,9 @@ class Sixteen
 //                     System.out.print(c);
 //                 }
 //                 else{System.out.print(" ");}
-
 //             }
 //             System.out.println();
 //         }
-
 
 //         System.out.println();                     
 //         char ab='a';
@@ -95,11 +90,9 @@ class Sixteen
 //                     System.out.print(ab++);
 //                 }
 //                 else{System.out.print(" ");}
-
 //             }
 //             System.out.println();
 //         }
-
 
 //         System.out.println();                     
 //         char AB='A';
@@ -112,7 +105,6 @@ class Sixteen
 //                     System.out.print(AB++);
 //                 }
 //                 else{System.out.print(" ");}
-
 //             }
 //             System.out.println();
 //         }
@@ -128,11 +120,9 @@ class Sixteen
                     System.out.print((char)(r+64));
                 }
                 else{System.out.print(" ");}
-
             }
             System.out.println();
         }
-
 
          System.out.println();                     
      
@@ -145,7 +135,6 @@ class Sixteen
                     System.out.print((char)(r+96));
                 }
                 else{System.out.print(" ");}
-
             }
             System.out.println();
         }
@@ -161,7 +150,6 @@ class Sixteen
                     System.out.print((char)(c+64));
                 }
                 else{System.out.print(" ");}
-
             }
             System.out.println();
         }
@@ -177,16 +165,9 @@ class Sixteen
                     System.out.print((char)(c+96));
                 }
                 else{System.out.print(" ");}
-
             }
             System.out.println();
         }
-
-        
-
-
-
-
 
     }
 }

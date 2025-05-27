@@ -55,28 +55,20 @@ class Ten
                 int mx=(n>n1)?n:n1;
                 int i=mx;                                
 
-                //  while(true)
-                //     {
-                //         if(i%n==0 && i%n1==0)  
-                //         {   
-                //             System.out.println(i);
-                //             break;
-                //         }
-                //         i=i+mx;                      //  incorrect - if(n%i ==0 && n1%i ==0)  
-                                                        //  correct - if(i%n ==0 && i%n1 ==0) 
-                //     }
-                //     mx++;                    
-
-
-                    while(true)
+                 while(true)
                     {
-                        if(i%n==0 && i%n1==0)
-                        {
+                        if(i%n==0 && i%n1==0)  
+                        {   
+                            System.out.println(i);
                             break;
                         }
-                        i=i+mx;
+                        i=i+mx;                      //  incorrect - if(n%i ==0 && n1%i ==0)  
+                                                      //   correct - if(i%n ==0 && i%n1 ==0) 
                     }
-                    System.out.println(i);
+                    mx++;                    
+
+
+                  
 
         }
     }
