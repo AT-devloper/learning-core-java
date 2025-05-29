@@ -7,7 +7,7 @@ public class Seventeen
    
 }
 
-public class Multi
+class Multi
 {
     public static void multi()
     {
