@@ -61,6 +61,6 @@ class Eighteen
 // Array is a object.
 // To store Multiple element (1,2,3,4,5) from same Datatypes;
 // Array stored where in Stack/in Heap memory ?  - Heap memory.
-// Array - Declaration,intanstistion,initialization,destruction. 
+// Array - Declaration,intanstistion,initialzation,destruction. 
 
 // JAVA COMPLETE's OR FIX THE LACK's OF ALL LAGUAGES.
