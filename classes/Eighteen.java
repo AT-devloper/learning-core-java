@@ -2,7 +2,7 @@
 // Array
 
 import java.util.*;
-// * - For use all Classes from package;
+// * - For use all type of Classes from package;
 
 class Eighteen
 {
@@ -10,7 +10,7 @@ class Eighteen
     {
 
       
-        //STATIC :-
+        //  STATIC :-
 
             // // Declaration:- 
             // int a;
@@ -41,27 +41,26 @@ class Eighteen
 
 
         // DYNAMIC :-
-        Scanner obj=new Scanner(System.in);
+            Scanner obj=new Scanner(System.in);
 
-            System.out.print("Enter size :- ");
-            int Size=obj.nextInt();
+                System.out.print("Enter size of Array :- ");
+                int Size=obj.nextInt();
 
-            int arr[]=new int[Size];
-            System.out.print("Enter size :- ");
+                int arr[]=new int[Size];
+                System.out.print("Enter Elements of Array :- ");
 
-
-                for(int i=0;i<arr.length;i++){
-                    arr[i]=obj.nextInt();
-                }
-                    for(int Arr : arr){         // For each loop is using for printing;
-                        System.out.println(Arr);
+                    for(int i=0;i<arr.length;i++){
+                        arr[i]=obj.nextInt();
                     }
+                        for(int Arr : arr){         // For each loop is using for printing Array;
+                            System.out.println(Arr);
+                        }
     }
 }
 
 // Array is a object.
-// To stpre Multiple element (1,2,3,4,5) of same Datatypes;
-// Array stored where in Stack/in Heap ?  - Heap.
+// To store Multiple element (1,2,3,4,5) from same Datatypes;
+// Array stored where in Stack/in Heap memory ?  - Heap memory.
 // Array - Declaration,intanstistion,initialozation,destruction. 
 
-// JAVA COMPLETE's LACK's OF ALL LAGUAGES.
+// JAVA COMPLETE's OR FIX THE LACK's OF ALL LAGUAGES.
