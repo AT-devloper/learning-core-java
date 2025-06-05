@@ -26,7 +26,7 @@ class Twenty
         int n=arr.length;
         // ARRAY IN ASSENDING ORDER.
 
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n-1;i++){
             for(int j=i+1; j<n; j++){
                 if(arr[i]>arr[j]){
                     int ac=arr[i];
@@ -42,7 +42,7 @@ class Twenty
         System.out.println();
         // ARRAY IN DECENDING ORDER.
        
-        for(int a=0; a<n ; ++a){
+        for(int a=0; a<n-1 ; ++a){
             for(int b=a+1; b<n ; ++b){
                 if(arr[a]<arr[b]){
                     int dc=arr[a];
