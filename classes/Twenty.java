@@ -53,4 +53,5 @@ class Twenty
         System.out.print("DC :- ");
         for(int ARR:arr){
             System.out.print(ARR +" ");
-        }}}
+        }
+        }}
