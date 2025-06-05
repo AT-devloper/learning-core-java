@@ -14,9 +14,9 @@ class Nineteen
         int arr[]=new int[size];
         System.out.print("Enter Elements of Array :- ");
 
-            // for(int i=0;i<arr.length;i++){
-            //     arr[i]=obj.nextInt();
-            //     }
+            for(int i=0;i<arr.length;i++){
+                arr[i]=obj.nextInt();
+                }
                 
             //     for(int Arr : arr){         
             //         System.out.println(Arr);
@@ -29,15 +29,16 @@ class Nineteen
             //             }
             //             System.out.print(sum);
 
-                    for(int i=0;i<arr.length /2;i++){
+                    for(int i=0;i<arr.length/2;++i){
                         int temp=arr[size-i-1];
                         arr[size-i-1]=arr[i];
                         arr[i]=temp;
                     
-                    for( i:arr )
+                    for(int j:arr )
                     {
-                        System.out.print(i +" ");
-                    }}
+                        System.out.print(j);
+                    }
+                    }
 
                         
 

@@ -1,5 +1,5 @@
-public static void main(String ar[])
-    // { 
-    //     int a=10,b=20;
-    //     System.out.print(a+b);
-    // }
+{
+                    int sm=arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=sm;
+                }
