@@ -35,15 +35,15 @@ class c_21
         // Move Zero
         int j=0;
         for(int i=0 ;i<n;i++)
-        {
-            if(arr[i]!=0)
             {
-                int zero=arr[i];
-                arr[i]=arr[j];
-                arr[j]=zero;
-                j++;
+                if(arr[i]!=0)
+                {
+                    int zero=arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=zero;
+                    j++;
+                }
             }
-        }
         for(int Zero:arr) System.out.print(Zero +" ");
  
     }
