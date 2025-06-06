@@ -45,7 +45,7 @@ class c_21
             }
         }
         for(int Zero:arr) System.out.print(Zero +" ");
-
+ 
     }
 }
 
