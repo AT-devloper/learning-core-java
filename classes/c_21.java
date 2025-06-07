@@ -6,7 +6,7 @@ class c_21
 {
     public static void main(String ar[])
     {
-        int arr[]={1,12,0,3,9};
+        int arr[]={1,0,12,0,3,9};
         int n=arr.length;
 
         // // Minimum
@@ -38,9 +38,9 @@ class c_21
             {
                 if(arr[i]!=0)
                 {
-                    int zero=arr[i];
+                    int zro=arr[i];
                     arr[i]=arr[j];
-                    arr[j]=zero;
+                    arr[j]=zro;
                     j++;
                 }
             }
