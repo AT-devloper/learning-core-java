@@ -9,7 +9,7 @@ class c_22
     //     int arr[]={0,2,0};
     //     int n=arr.length;
 
-    //     int dp=0;       //  DUPLICTE
+    //     int dp=0;             //  DUPLICTE
     //     for(int i=0;i<n;i++)
     //     {
     //         for(int j=i+1;j<n;j++)
@@ -22,32 +22,47 @@ class c_22
     //         }
     //     }
     // System.out.print("Duplicate :- " +dp);
+    
 
 
-    // int arr[]={1,1,3,4,6,3,4,6,9};      // UNIQUE
-    // int un=0;
-    // for(int Arr : arr)
-    // {
-    //     un=un^Arr;
-    // }
-    // System.out.print("Unique :- "  +un);
-
-    int arr[]={1,1,1,3,4,3,4,9}; 
-    int fn=0;
-
-    for(int i=0; i<arr.length;i++)
-    {
-        for(int j=i+1;j<arr.length;j++)
+    int arr[]={1,1,1,3,4,3,4,9};    // Friquancy
+    int n=arr.length;
+    for(int i=0;i<n;i++)
+    {   
+        if(arr[i]!=-1)
         {
-            if(arr[i] == arr[j])
-            {
-                fn++;
-                break;
+            int fr=1;
+            for(int j=i+1;j<n;j++)
+            {   
+                if(arr[i]==arr[j])
+                {
+                fr++;
+                arr[j]=-1;
+                }
             }
+            System.out.println(arr[i] +" :- " +fr);
         }
-        
     }
-    System.out.print(fn);
+
+    // int arr[] = {1,2,4,1,2,5} ;             // Unique
+
+    // for(int i=0; i<arr.length;i++)
+    // {
+    //     boolean un = false;
+    //     for(int j=i+1 ;j<arr.length;j++)
+    //     {
+    //         if(arr[i]==arr[j])
+    //         {
+    //         un=true;
+    //         arr[j]=-1;
+    //         }
+    //     }
+    //     if(un==false && arr[i]!=-1)
+    //     {
+    //         System.out.print(arr[i] +" ");
+    //     }
+    // }
+    
 
 
 
@@ -60,5 +75,5 @@ class c_22
 
 //  2nd largest
 //  Duplicate
-//  Uniqu
+//  Unique
 //  Friqancy
