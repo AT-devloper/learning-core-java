@@ -1,4 +1,1 @@
-sum(arr);
-        // System.out.println();
-        // rev(arr);
-        // System.out.println();
+if(j==arr.length) System.out.print("Sub");
