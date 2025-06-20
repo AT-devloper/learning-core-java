@@ -1,1 +1,1 @@
-if(j==arr.length) System.out.print("Sub");
+j
