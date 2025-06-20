@@ -6,6 +6,7 @@ class c_28
     static boolean bp(String Str)
     {
         int i=0,curly=0,square=0,circle=0;
+        
         while(i<Str.length())
         {
             char ch=Str.charAt(i);
