@@ -1,13 +1,13 @@
 //  23 June 2025
-//  OOPS - 
+//  OOPS Starting
 
-class c_30
+class c_30_OOPS
 {
     int a;              // Member Variable
-    
+
     void set(int a)     // Member Function
     {
-        this.a=a;
+        this.a=a;       // (this) - This oprator repersent instance variable of  current class.
     }
     void get()  
     {
@@ -16,9 +16,11 @@ class c_30
 
     public static void main(String ar[])
     {
-        c_30 obj=new c_30();
-        obj.set(10);
+
+        c_30 obj = new c_30();        // Use Always Current Class name.
+        obj.set(51);
         obj.get();
+
     }
 }
 
