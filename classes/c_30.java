@@ -3,8 +3,9 @@
 
 class c_30
 {
-    int a;
-    void set(int a)
+    int a;              // Member Variable
+    
+    void set(int a)     // Member Function
     {
         this.a=a;
     }
