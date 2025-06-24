@@ -1,5 +1,5 @@
 //  19 June 2025
-//  Perantheses
+//  String - Parentheses
 
 class c_28
 {   
@@ -19,15 +19,15 @@ class c_28
             else if(ch==')') circle-- ;
 
             ++i ;
-        }
+        }          
         return curly==0 && square==0 && circle==0;
     }
 
     public static void main(String ar[])
     {
         String Str ="[{()}]";
-        if(bp(Str)) System.out.print("Valid");
-        else System.out.print("Invalid");
+        if(bp(Str)) System.out.print("Valid Parentheses");
+        else System.out.print("Invalid Parentheses");
     }
 }
 
