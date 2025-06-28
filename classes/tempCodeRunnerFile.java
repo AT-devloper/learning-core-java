@@ -1,1 +1,1 @@
-j
+obj.bind(1 , "Ayush");
