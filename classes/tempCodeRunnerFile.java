@@ -1,1 +1,7 @@
-obj.bind(1 , "Ayush");
+class el implements engine
+// {
+//     public void start()
+//     {
+//         System.out.println("Electric Engine Start");
+//     }
+// }
