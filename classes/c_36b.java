@@ -1,5 +1,5 @@
 //  1 july 2025
-//  Polymorphism - Method OverRiding . (by interface)
+//  Polymorphism - Method OverRiding (by interface).
 
 interface engine
 {
