@@ -21,7 +21,7 @@ static char ca(String str)
     public static void main(String ar[])
     {
 
-        String str = "CYbrOM";
+        String str = "aKSHARA";
         ca(str);
         
     }
