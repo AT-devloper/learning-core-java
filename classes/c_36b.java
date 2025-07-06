@@ -45,4 +45,4 @@ class c_36b
     }
 }
 
-// INTERFACE = Abstract - function - method oveririding - Using implement keyword - an Abstract class no object creating . 
+// INTERFACE = Abstract - function - method overiding - Using implement keyword - an Abstract class no object creating . 
