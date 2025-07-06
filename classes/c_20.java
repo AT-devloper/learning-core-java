@@ -22,7 +22,7 @@ class c_20
 
 
 
-        int arr[]={1,12,5,3,9};
+        int arr[]={56,42,23,68,11};
         int n=arr.length;
         // ARRAY IN ASSENDING ORDER.
 
