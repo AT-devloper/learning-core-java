@@ -3,7 +3,7 @@
  
 
 import java.util.*;
-class Twenty
+class c_20
 {
     public static void main(String ar[])
     {

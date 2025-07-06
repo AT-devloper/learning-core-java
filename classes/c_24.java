@@ -54,7 +54,7 @@ class c_24
                 } }
                System.out.println(arr[i] +" :- " +fr);
             } }
-    return 0;
+        return 0;
     }
 
     static int unique(int arr[])
