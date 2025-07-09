@@ -29,6 +29,7 @@ class Prc_7
         le++;
         re--;
     }
+    System.out.println(str);
     System.out.print(arr);
 
 }}
