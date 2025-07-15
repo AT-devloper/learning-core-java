@@ -1,5 +1,5 @@
-//
-//
+//  14 july 2025
+//  Stack using Link-list
 
 class Node
 {
