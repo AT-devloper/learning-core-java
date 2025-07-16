@@ -12,7 +12,7 @@ class Node
     }
 }
 
-class dc_3
+class dc_3a
 {
     public static void main(String ar[])
     {
@@ -36,7 +36,6 @@ class dc_3
             System.out.println(obj.value);
             obj=obj.ref;
         }
-
 
     }
 }
