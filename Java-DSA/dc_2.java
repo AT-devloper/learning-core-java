@@ -28,4 +28,4 @@ class dc_2
     }
         } }
 
-//
+// Stack = Lifo - Last in first out.
