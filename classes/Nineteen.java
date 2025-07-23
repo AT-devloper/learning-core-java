@@ -31,12 +31,12 @@ class Nineteen
 
                     for(int i=0;i<arr.length/2;++i){
                         int temp=arr[size-i-1];
-                        arr[size-i-1]=arr[i];
+                        arr[size-i-1]=arr[i];           //reverse array
                         arr[i]=temp;
                     
                     for(int j:arr )
                     {
-                        System.out.print(j);
+                        System.out.print(j +" ");
                     }
                     }
 
