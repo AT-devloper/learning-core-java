@@ -1,1 +1,1 @@
-nu&1
+left=div(left);
