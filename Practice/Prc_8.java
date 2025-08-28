@@ -5,8 +5,8 @@ class Prc_8
 {
     static int[] div(int arr[])
     {
-
-         int mid=arr.length/2;
+        if(arr.length<=1) return arr;
+            int mid=arr.length/2;
             int left[]= new int[mid];
             int right[]=new int[arr.length-mid];
 
@@ -58,12 +58,10 @@ class Prc_8
     public static void main(String ar[])
     {
         int arr[]={4,2,9,0};
-
         int ans[]=div(arr);
-
         for(int Ans : ans)
         {
-            System.out.print(Ans);
+            System.out.print(Ans +" ");
         }
     }
 }
