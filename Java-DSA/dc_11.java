@@ -13,12 +13,12 @@ class dc_11
         }
     }
 
-    static void partition(int arr[],int low ,int high)
+    static int partition(int arr[],int low ,int high)
     {
         int pivot=arr[high];
         int i=low;
 
-        for(int j=low;j<high;j++)
+        for(int j=low;j<high;++j)
         {
             if(arr[j]<pivot)
             {
@@ -31,20 +31,20 @@ class dc_11
         int temp = arr[i];
         arr[i]=arr[high];
         arr[high]=temp;
-
+        System.out.print(i);
         return i;
     }
 
     public static void main(String ar[])
     {
        int arr[]={4,5,6,7,1,3};
-       int high=arr.length-1;
+       int n=arr.length;
        int low=0;
 
-       Qs(arr,low,high);
-       for(int Q : Qs)
+       Qs(arr,low,n-1);
+       for(int Q : arr)
        {
-        system.out.print(Q);
+        System.out.print(Q +" ");
        }
 
     }
