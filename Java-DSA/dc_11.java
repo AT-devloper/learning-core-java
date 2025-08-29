@@ -3,17 +3,17 @@
 
 class dc_11
 {
-    static void Qs(int arr[],int high,int low)
+    static void Qs(int arr[],int low,int high)
     {
         if(low<high)
         {
-        int pivotin = partition(arr,low,high);
+        int pivotin = part(arr,low,high);
         Qs(arr,low,pivotin-1);
-        Qs(arr,high,pivotin+1);
+        Qs(arr,pivotin+1,high);
         }
     }
 
-    static int partition(int arr[],int low ,int high)
+    static int part(int arr[],int low ,int high)
     {
         int pivot=arr[high];
         int i=low;
@@ -25,13 +25,13 @@ class dc_11
                 int temp=arr[j];
                 arr[j]=arr[i];
                 arr[i]=temp;
-                i++;
+                ++i;
             }
         }
         int temp = arr[i];
         arr[i]=arr[high];
         arr[high]=temp;
-        System.out.print(i);
+     
         return i;
     }
 
