@@ -23,7 +23,7 @@ class dc_10
                 }
 
        
-            left=div(left);
+            left=div(left); 
             right=div(right);
         return merge(left,right);
     }
