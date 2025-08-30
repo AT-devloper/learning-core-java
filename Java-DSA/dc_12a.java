@@ -1,5 +1,5 @@
 //  30 Aug 2025
-//  Leaner searching with to element
+//  Leaner searching with two element
 
 class dc_12a
 {
