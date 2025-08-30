@@ -8,6 +8,7 @@ class dc_11
         if(low<high)
         {
         int pivotin = part(arr,low,high);
+        
         Qs(arr,low,pivotin-1);
         Qs(arr,pivotin+1,high);
         }
