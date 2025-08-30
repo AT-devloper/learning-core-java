@@ -38,10 +38,10 @@ class dc_11
     public static void main(String ar[])
     {
        int arr[]={4,5,6,7,1,3};
-       int n=arr.length;
+       int high=arr.length-1;
        int low=0;
 
-       Qs(arr,low,n-1);
+       Qs(arr,low,high);
        for(int Q : arr)
        {
         System.out.print(Q +" ");

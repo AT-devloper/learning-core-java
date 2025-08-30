@@ -6,7 +6,7 @@ class dc_12
 {
     public static void main(String ar[])
     {
-
+        
         
     }
 }
