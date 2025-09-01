@@ -1,5 +1,5 @@
 //  25 Aug 2025
-//  
+//  Merg sort
 
 class dc_10
 {
