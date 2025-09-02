@@ -1,1 +1,1 @@
-        int ans[]=div(arr);
+fibo(dp,n)
