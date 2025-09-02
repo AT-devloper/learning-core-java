@@ -1,5 +1,5 @@
 //  1 sep 2025
-//  febo with Dynamic programming
+//  febo with Dynamic programming(recourson + memorization) (t b)
 
 class dc_14
 {
