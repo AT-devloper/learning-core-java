@@ -6,6 +6,7 @@ class dc_14a
     static int fibo(int n)
     {
         if(n<=1)    return n;
+
         int dp[]=new int[n+1];
 
         dp[0]=0;
@@ -18,6 +19,7 @@ class dc_14a
         
         return dp[n];
     }
+    
     public static void main(String ar[])
     {
         int n=4;
