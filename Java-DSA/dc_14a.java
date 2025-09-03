@@ -1,5 +1,5 @@
 //  2 sep 2025
-//  fibonacci  (b t)
+//  fibonacci  tabletion(b t) 
 
 class dc_14a
 {
