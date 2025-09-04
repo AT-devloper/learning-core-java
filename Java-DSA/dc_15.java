@@ -13,13 +13,13 @@ class dc_15
         {
             ws=ws+arr[i];
         }
-        int max=ws;
+        int Max=ws;
         for(int i=size;i<arr.length;i++)
         {
             ws=ws+arr[i]-arr[i-size];
-            max=Math.max(ws,max);
+            Max=Math.max(ws,Max);
         }
-        return max;
+        return Max;
     }
 
     public static void main(String ar[])
