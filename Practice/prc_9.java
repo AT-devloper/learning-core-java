@@ -1,5 +1,5 @@
-//
-//
+//  4 sep 2025
+//  Sliding window
 
 class prc_9
 {
