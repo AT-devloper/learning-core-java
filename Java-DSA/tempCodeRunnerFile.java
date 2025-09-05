@@ -1,1 +1,2 @@
-        int ans[]=div(arr);
+ // rider=driveCar();
+        // rider=driveTruck();

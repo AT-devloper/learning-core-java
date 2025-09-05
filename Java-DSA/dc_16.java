@@ -1,54 +1,63 @@
 //  4 sep 2025
-//  
+//  Loose Coupling
 
-    interface Rider
+    interface Vehical
     {
         void drive();
     }
 
-    class bike implements Rider
+    class Bike implements Vehical
     {
         public void drive()
         {
-            System.out.println("Rider start Drive bike");
+            System.out.println("Rider start Drive bike.");
         }
     }
-    class car implements Rider
+    class Car implements Vehical
     {
         public void drive()
         {
-            System.out.println("Rider start Drive car");
+            System.out.println("Rider start Drive car.");
         }
     }
-    class truck implements Rider
+    class Truck implements Vehical
     {
         public void drive()
         {
-            System.out.println("Rider start Drive truck");
+            System.out.println("Rider start Drive truck.");
         }
     }
 
-    class All 
+    class Rider
     {
-        int ref;
-        Rider rider;
+        Vehical obj;
 
-        public All(Rider rider)
+        public Rider(Vehical obj)
         {
-            this.rider=rider;
+            this.obj=obj;
         }
         public void start()
         {
-            rider.drive();
+            obj.drive();
         }
     }
 
-    class dc_16
+class dc_16
 {
     public static void main(String ar[])
-    {  
-        All all= new All();
-        all.start();
+    {   
+        Vehical truck= new Truck();
+        Vehical bike=new Bike();
+        Vehical car=new Car();
+
+        Rider obj = new Rider(bike);
+        obj.start();
+        
+        Rider obj1 = new Rider(car);
+        obj1.start();
+        
+        Rider obj2 = new Rider(truck);
+        obj2.start();    
     }
 }
 //
