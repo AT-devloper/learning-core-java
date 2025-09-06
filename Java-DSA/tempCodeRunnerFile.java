@@ -1,2 +1,1 @@
- // rider=driveCar();
-        // rider=driveTruck();
+li.add(arr[index]);

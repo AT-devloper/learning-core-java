@@ -1,11 +1,12 @@
 //  5 sep 2025
 //  Back Tracking
 
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 
 class dc_17
 {
-    void genSub(int arr[],list li,int index)
+    static void genSub(int arr[],List<Integer> li,int index)
     {
         if(index==arr.length)
         {
@@ -13,18 +14,17 @@ class dc_17
 
             return ;
         }
-
-        li.add(arr(index));
+        li.add(arr[index]);
         genSub(arr,li,index+1);
 
-        li.remove(arr(index));
+        li.remove(li.size()-1);
         genSub(arr,li,index+1);
     }
     
     public static void main(String ar[])
     {
       int arr[]={1,2,3};
-      genSub(arr,new arraylist(),0);
-
+      List<Integer>li=new ArrayList();
+      genSub(arr,li,0);
     }
 }
